@@ -1,0 +1,57 @@
+<html lang="ru-RU">
+<head>
+  <meta http-equiv="Content-Type" content="test/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="files/index.css">
+  <link rel="shortcut icon" href="avatar.ico">
+  <title>MANHUNT</title>
+</head>
+<body>
+  <div class="wrapper">
+    <?php require "blocks/header.php" ?>
+    <div class="page">
+      <ul class="leader_text" type="none">
+        <li class="board" id="description"><p style="text-align:center; margin-top:34px; margin-bottom:10px;">Описание:</p></li>
+        <li class="BDO_img"><div class="leader_text_guild">MUNHUNT</div></li>
+      </ul>
+      <div class="youtubeChannels">
+        <h2 style="text-align: center; margin-bottom: 14px;">Каналы</h2>
+        <ul class="channels_links" type="none">
+          <li class="channels">
+            <a href="https://www.youtube.com/c/drelGame" target="_blank" class="channels_arrow">
+              <img src="https://yt3.ggpht.com/ytc/AKedOLT4goQ25OsgKCC7W8XVc-qfgPvYkO-xCONhwqglMw=s88-c-k-c0x00ffffff-no-rj" class="channels_avatar">
+              <span class="channels_name">Wolfy & Нитрыч</span>
+            </a>
+          </li>
+          <li class="channels">
+            <a href="https://www.youtube.com/user/inqiddqd" target="_blank" class="channels_arrow">
+              <img src="https://yt3.ggpht.com/ytc/AKedOLSwVBBLKXJ0T0jJTF3DiBdr_obl9bruANGq-8b40g=s88-c-k-c0x00ffffff-no-rj" class="channels_avatar">
+              <span class="channels_name">Сергей Inq</span>
+            </a>
+          </li>
+          <li class="channels none">
+            <a href="https://www.youtube.com/channel/UC_2OPeudd1GjNXiUsLd9biQ" target="_blank" class="channels_arrow">
+              <img src="https://yt3.ggpht.com/DqxVL9AZHR6XmuTbDu_XTqFSPLMyWVUCEt3FV91MRcXenhcEgumFK5ZZ5S8r5k9iW-CZBdnjrSc=s88-c-k-c0x00ffffff-no-rj" class="channels_avatar">
+              <span class="channels_name">Кийоко Огава</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="guildmembers">
+        <div class="guildmaster">
+          <h2 class="guildmaster__name">Гильдмастер</h2>
+          <p class="guildmaster__dscn">Имя: Евгений</br>
+          Фамилия (игровая): Majere</br>
+          Класс: Мудрец, Хассашин, воин</br>
+          Дискорд: Моргион&nbsp;()#7490
+          </p>
+        </div>
+      </div>
+      <div></div>
+    </div>
+    <div class="footer"></div>
+  </div>
+  <script src="description.js"></script>
+  <script src="files/index.js"></script>
+</body>
+</html>
