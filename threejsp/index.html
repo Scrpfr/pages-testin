@@ -5,6 +5,14 @@
 		<style>
 			body { margin: 0; }
 
+			.model {
+				width: 700px;
+				height: 700px;
+				margin-left: 20px;
+				margin-top: 20px;
+				border: 2px solid black;
+			}
+
 			model-viewer{
     			width:100%;
     			height: 100vh;
@@ -12,7 +20,7 @@
 		</style>
 	</head>
 	<body>
-		<!-- <script type="module" src="first-three-js/main.js"></script> -->
+		<container class="model">
 		<script src="https://unpkg.com/@webcomponents/webcomponentsjs@2.1.3/webcomponents-loader.js"></script> 
 		<model-viewer
 			 src="tinycar/scene.gltf"
@@ -24,5 +32,6 @@
 		</model-viewer>
 		<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 		<script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+		</container>
 	</body>
 </html>
