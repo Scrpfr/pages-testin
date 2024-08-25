@@ -17,3 +17,15 @@ body {background-color: #020f24; color: #0263ff;}
    margin-top: 80px;
    margin-bottom: 40px;
 }
+
+.specifications {
+   padding: 0;
+   margin: 0 auto;
+   display: grid;
+   justify-items: center;
+   grid-template-areas: "type_name type_mean"
+                        "ammo_name ammo_mean"
+                        "clrh_name clrh_mean"
+                        "clrm_name clrm_mean";
+   width: 200px;
+}
