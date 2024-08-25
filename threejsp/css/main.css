@@ -24,7 +24,7 @@ body {
 .content {width: 50%;}
 .content h1 {
    text-align: center;
-   font-size: 300%;
+   font-size: 290%;
    margin-top: 80px;
    margin-bottom: 40px;
    font-family: saiba;
@@ -45,4 +45,13 @@ body {
    font-size: 165%;
    font-family: PlexMono;
    color: #80a6ff;
+}
+
+.modal {
+   width: 100vw;
+   height: 100vh;
+   display: block;
+   position: absolute;
+   top: 0;
+   left: 0;
 }
