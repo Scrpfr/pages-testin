@@ -47,10 +47,28 @@ body {
    color: #80a6ff;
 }
 
-.modal {
+.content p {
+   font-size: 140%;
+   font-family: PlexMono;
+   color: #80a6ff;
+   text-indent: 20px;
+}
+
+.button {
+   position: relative;
+   top: 20px;
+   left: 20%;
+   padding: 14px 20px;
+   background-color: #80a6ff;
+   border-radius: 40px;
+   color: bisque;
+   cursor: pointer;
+}
+
+#modal {
    width: 100vw;
    height: 100vh;
-   display: block;
+   display: none;
    position: absolute;
    top: 0;
    left: 0;
