@@ -35,16 +35,17 @@
 			<container class="model">
 				<script src="https://unpkg.com/@webcomponents/webcomponentsjs@2.1.3/webcomponents-loader.js"></script> 
 				<model-viewer
-					 src="revolver/scene.gltf"
-					 shadow-intensity="0"
-					 disable-zoom
-					 camera-controls
-					 auto-rotate
+					src="revolver/scene.gltf"
+					shadow-intensity="0"
+					disable-zoom
+					camera-controls
+					auto-rotate
 					disable-pan
 				>
 				</model-viewer>
 				<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 				<script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+				<script>lightMapIntensity="10"</script>
 				</container>
 		</div>
 	</body>
