@@ -1,0 +1,48 @@
+body {
+   background: url('bgimg.jpg') #252525;
+   background-blend-mode: color-dodge;
+   background-size: cover;
+}
+
+@font-face {
+   font-family: saiba;
+   src: url('SAIBA-45-Regular-(v1.1).otf');
+}
+@font-face {
+   font-family: PlexMono;
+   src: url('IBMPlexMono-Medium.ttf');
+}
+
+.wrapper {
+   max-width: 1700px;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.content {width: 50%;}
+.content h1 {
+   text-align: center;
+   font-size: 300%;
+   margin-top: 80px;
+   margin-bottom: 40px;
+   font-family: saiba;
+   color: #b76f28;
+   letter-spacing: 1;
+}
+
+.specifications {
+   padding: 0;
+   margin: 0 auto;
+   display: grid;
+   justify-items: center;
+   grid-template-areas: "type_name type_mean"
+                        "ammo_name ammo_mean"
+                        "clrh_name clrh_mean"
+                        "clrm_name clrm_mean";
+   width: 500px;
+   font-size: 165%;
+   font-family: PlexMono;
+   color: #80a6ff;
+}
