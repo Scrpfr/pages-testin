@@ -8,9 +8,6 @@ body {background-color: #020f24; color: #0263ff;}
    justify-content: space-between;
 }
 
-.model {border: 1px solid transparent;}
-.model:hover {border: 1px solid #0263ff;}
-
 .content {width: 50%;}
 .content h1 {
    text-align: center;
