@@ -5,3 +5,4 @@
 - [Modimal](https://scrpfr.github.io/pages-testin/modimal/index.html)
 - [страница с 3д моделькой](https://scrpfr.github.io/pages-testin/threejsp/index.html)
 - [Макет LoftHouse](https://scrpfr.github.io/pages-testin/LoftHouse/index.html)
+- [Макет Panto](https://scrpfr.github.io/pages-testin/panto-furniture-store/index.html)
