@@ -57,6 +57,7 @@ a {
 .main-header__time {
    position: relative;
    top: 10px;
+   left: -10vw;
 }
 
 .main-header__arrows__list {
@@ -71,6 +72,9 @@ a {
 .content {
    width: 1841px;
    margin: 0 auto;
+   @media (max-width: 1842px) {
+      width: 96%;
+   }
 }
 
 .section-first {
@@ -99,7 +103,7 @@ a {
    width: 39px;
    height: 30px;
    /* background-color: #ff0000; */
-   background-image: url(../icons/triangle.png);
+   background-image: url(../icons/triangle.svg);
 }
 
 .section-second__feats {
@@ -122,6 +126,10 @@ a {
    height: 770px;
    width: 913px;
    background-position: center;
+   transition: filter .3s ease 0s;
+}
+.section-second__features__img-block:hover {
+   filter: brightness(0.5);
 }
 
 .features_img1 {background-image: url(../images/work1_orig.png);}
@@ -138,7 +146,26 @@ a {
    p {max-width: 140px;}
 }
 
-.section-second__dfdf {
+.section-second__star {
+   padding-top: 250px;
+   padding-bottom: 150px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   img {position: relative;}
+}
+
+.warped::after {
+   content: '';
+   position: absolute;
+   width: 10px;
+   height: 10px;
+   left: 1px;
+   top: 1px;
+   /* background-color: #ff0000; */
+}
+
+.next-block {
    height: 200px;
    border: #ff0000 2px solid;
    padding-top: 100px;
