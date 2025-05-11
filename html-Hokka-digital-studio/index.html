@@ -1,70 +1,95 @@
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width">
-		<link rel="stylesheet" href="css/main.css">
-		<link rel="shortcut icon" href="icons/music.ico">
-		<title>Hokka Digital Studio</title>
-		<!-- <script src="js/elements-parallax.js" defer></script> -->
-	</head>
-	<body>
-		<!-- Начало вёрстки -->
-		 <div class="main-header">
-			<div class="content  header-centering">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="css/main.css">
+	<!-- <link rel="shortcut icon" href="icons/music.ico"> -->
+	<title>Hokka Digital Studio</title>
+</head>
+
+<body>
+	<header class="header">
+		<div class="container header__container">
+			<div class="header__left-side">
 				<img src="icons/logo.svg" alt="logo">
-				<div class="main-header__time">
+				<div class="header__time">
 					<p>16:54 PM, EET</p>
 					<p>7:54 PM, CET</p>
 				</div>
-				<ul class="main-header__arrows__list header-centering">
-					<a href="#" target="_blank"><li>Work /</li></a>
-					<a href="#" target="_blank"><li>About /</li></a>
-					<a href="#" target="_blank"><li>Services /</li></a>
-					<a href="#" target="_blank"><li>Contacts /</li></a>
-				</ul>
-				<div class="main-header__com"><a href="#" target="_blank">[ Let's talk ]</a></div>
 			</div>
-		 </div>
-		<section class="section section-first"><p style="text-align: center; padding-top: 260px;">будет блок с головой девушки</p></section>
-		<section class="section section-second">
-			<div class="content">
-				<div class="section-second__vector_img"><img src="icons/separator.svg" alt="svg"></div>
-				<h2 class="section-second__header">Featured work</h2>
-				<div class="section-second__feats">
+			<nav class="nav header__right-side">
+				<ul class="nav__list">
+					<li>
+						<a href="#">Work</a>
+					</li>
+					<li>/</li>
+					<li>
+						<a href="#">About</a>
+					</li>
+					<li>/</li>
+					<li>
+						<a href="#">Services</a>
+					</li>
+					<li>/</li>
+					<li>
+						<a href="#">Contacts</a>
+					</li>
+					<li>/</li>
+				</ul>
+				<div class="header__com">
+					<a href="#" target="_blank">[ Let's talk ]</a>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<section class="section section-first">
+		<p style="text-align: center; padding-top: 260px;">будет блок с головой девушки</p>
+	</section>
+	<section class="section portfolio">
+		<div class="container">
+			<div class="portfolio__sign"><img src="icons/separator.svg" alt="svg"></div>
+			<h2 class="portfolio__header">Featured work</h2>
+			<div class="portfolio__works parallax-container"><!-- параллакс -->
 
-					<div class="section-second__features" id="feat-work_element-1">
-						<div class="section-second__features__img-block features_img1">
-						</div>
-						<div class="section-second__features__description">
-							<h3 class="section-second__description-header">[ AURA® ]</h3>
-							<div class="section-second__description-text">
-								<p>Identity and Interface</p>
-								<p>New</p>
-							</div>
+				<div class="portfolio__works-item portfolio__works-item-1">
+					<div class="portfolio__img features_img1">
+					</div>
+					<div class="portfolio__description">
+						<h3 class="portfolio__description-header">[ AURA® ]</h3>
+						<div class="portfolio__description-text">
+							<p>Identity and Interface</p>
+							<p>New</p>
 						</div>
 					</div>
+				</div>
 
-					<div class="section-second__features" id="feat-work_element-2">
-						<div class="section-second__features__img-block features_img2">
-						</div>
-						<div class="section-second__features__description">
-							<h3 class="section-second__description-header">[ AIR RIDER | Motorcycle helmet ]</h3>
-							<div class="section-second__description-text">
-								<p>Design, Identity & 3D Design</p>
-								<p>2024</p>
-							</div>
+				<div class="portfolio__works-item portfolio__works-item-2">
+					<div class="portfolio__img features_img2">
+					</div>
+					<div class="portfolio__description">
+						<h3 class="portfolio__description-header">[ AIR RIDER | Motorcycle helmet ]</h3>
+						<div class="portfolio__description-text">
+							<p>Design, Identity & 3D Design</p>
+							<p>2024</p>
 						</div>
 					</div>
+				</div>
 
-				</div>
-				<div class="section-second__star">
-					<img src="images/star1.png" alt="r1" class="warped">
-					<img src="images/star2.png" alt="r2">
-					<img src="images/star3.png" alt="r3">
-				</div>
-				<div class="next-block"><p style="text-align: center;">следущий блок</p></div>
-			</div><!-- Выравнивание по центру -->
-		</section>
-		<!-- Конец вёрстки -->
-	</body>
+			</div>
+			<div class="section-second__star">
+				<img src="images/star1.png" alt="r1" class="warped">
+				<img src="images/star2.png" alt="r2">
+				<img src="images/star3.png" alt="r3">
+			</div>
+			<div class="next-block">
+				<p style="text-align: center;">следущий блок</p>
+			</div>
+		</div>
+	</section>
+	<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+	<script src="js/elements-parallax.js"></script>
+</body>
+
 </html>

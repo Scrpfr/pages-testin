@@ -1,0 +1,48 @@
+:root {
+   --font-family: "PP Editorial New", sans-serif;
+   --second-family: "Inter", sans-serif;
+   --third-family: "Neue Montreal", sans-serif;
+   --font3: "PFBaselinePro-Bold", sans-serif;
+   --font4: "Digital-7", sans-serif;
+   --font5: "Helvetica Now Display", sans-serif;
+   --font6: "BL Melody", sans-serif;
+   --font7: "Arial", sans-serif;
+}
+
+* {
+   padding: 0;
+   margin: 0;
+}
+
+h2 {
+   font-family: var(--font7);
+   font-weight: 500;
+   font-size: 625%;
+   line-height: 120%;
+   letter-spacing: -0.01em;
+   color: #fff;
+}
+
+h3 {
+   font-family: var(--third-family);
+   font-weight: 400;
+   font-size: 150%;
+   padding: 20px 0;
+}
+
+a {
+   color: inherit;
+   text-decoration: none;
+}
+
+.section {
+   width: 100%;
+}
+
+.container {
+   width: 1841px;
+   margin: 0 auto;
+   @media (max-width: 1842px) {
+      width: 96%;
+   }
+}
