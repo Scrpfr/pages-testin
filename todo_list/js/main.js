@@ -93,3 +93,5 @@ todosElement.addEventListener("click", ({ target }) => {
 		todo.remove();
 	}
 });
+
+createTodo(todos, 'Задача 1');
