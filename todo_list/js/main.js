@@ -94,4 +94,4 @@ todosElement.addEventListener("click", ({ target }) => {
 	}
 });
 
-createTodo(todos, 'Задача 1');
+handleCreateTodo(todos, 'Задача 1');
