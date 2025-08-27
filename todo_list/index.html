@@ -17,9 +17,8 @@
           name="new-todo"
           placeholder="Новая задача..."
           autocomplete="off"
-          onkeydown="event.key == 'Enter' ? createTodo(todos, this.value) : {}"
         />
-        <div class="button-create button" onclick="createTodo(todos, todoInput.value)">Добавить</div>
+        <button class="button-create button">Добавить</button>
       </form>
       <ul class="todos"></ul>
     </div>
