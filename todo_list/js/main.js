@@ -43,7 +43,6 @@ const deleteTodoById = (todos, todoId) => {
 	return todos;
 };
 
-// UI
 const formElement = document.querySelector(".form");
 const inputElement = document.querySelector(".input");
 const todosElement = document.querySelector(".todos");
